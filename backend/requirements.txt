@@ -1,0 +1,34 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.0
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+pydantic==2.10.1
+pydantic-settings==2.6.1
+python-multipart==0.0.18
+
+# Async HTTP
+httpx==0.28.0
+
+# Celery + Redis
+celery==5.4.0
+redis==5.2.0
+
+# OCR
+pytesseract==0.3.13
+Pillow==11.0.0
+pdf2image==1.17.0
+
+# PDF parsing
+pypdf==5.1.0
+
+# Vector DB
+chromadb==0.5.20
+
+# Exchange / EWS
+exchangelib==5.4.3
+
+# Utils
+python-dotenv==1.0.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
